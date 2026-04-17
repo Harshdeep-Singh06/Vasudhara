@@ -8,7 +8,7 @@ function Navbar() {
 
         <p className='hidden md:block translate-y-3'>Home</p>
         <div className='flex-col justify-start'>
-          <p className='text-center text-2xl'>VSUDHΛRΛ</p>
+          <p className='text-center text-2xl'>VΛSUDHΛRΛ</p>
           <p className='text-xs text-center'>Every life matters</p>
         </div>
         <p className='hidden md:block translate-y-3'>About</p>
