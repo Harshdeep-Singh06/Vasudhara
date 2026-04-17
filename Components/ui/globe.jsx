@@ -4,10 +4,12 @@ export const Globe = () => {
   return (
     <div
       className={cn(
-        
+        "relative w-full max-w-5xl mx-auto overflow-hidden rounded-3xl p-8 md:p-12 border backdrop-blur",
+        "bg-white/90 border-neutral-200 text-black",
+        "dark:bg-neutral-900/90 dark:border-neutral-800 dark:text-white"
       )}
     >
-      <div className="pointer-events-none absolute -top-32 -right-24 h-72 w-72 rounded-full bg-cyan-900/10 blur-3xl dark:bg-cyan-500/20" />
+      <div className="pointer-events-none absolute -top-32 -right-24 h-72 w-72 rounded-full bg-cyan-400/10 blur-3xl dark:bg-cyan-500/20" />
       <div className="pointer-events-none absolute -bottom-40 -left-32 h-80 w-80 rounded-full bg-indigo-400/10 blur-3xl dark:bg-indigo-600/20" />
 
       <div className="relative flex flex-col items-center text-center">
