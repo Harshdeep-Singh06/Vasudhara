@@ -2,6 +2,8 @@ import React from 'react'
 
 const ContactContent = () => {
   return (
+
+    // {contact page}
      <div className='flex flex-col items-center  pt-10 md:pt-28 px-4 text-center'>
 
         <p className='tracking-[0.3em] text-sm font-bold text-gray-600 mb-6'>
@@ -14,7 +16,7 @@ const ContactContent = () => {
         </h1>
 
       </div>
-      
+
   )
 }
 
