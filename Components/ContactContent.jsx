@@ -1,5 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import gsap from 'gsap'
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 
 const ContactContent = () => {
   const sectionRef = useRef(null)
@@ -17,6 +19,16 @@ const ContactContent = () => {
         duration: 0.8,
         ease: "power3.out",
       })
+      gsap.to(".scroll-indicator", {
+  opacity: 0,
+  y: 20,
+  ease: "power2.out",
+  scrollTrigger: {
+    trigger: sectionRef.current,
+    start: "top top", 
+    scrub:true,
+  },
+});
 
   
       tl.from(".contact-text", {
@@ -45,7 +57,14 @@ const ContactContent = () => {
         Have a question, idea, or wish to help animals in need? Get in touch
         and be part of our mission — because every life matters.
       </h1>
+      <div className='absolute scroll-indicator bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center'>
+  <div className='w-6 h-10 border-2 border-black rounded-full flex justify-center pt-2'>
+    <div className='w-1 h-2 bg-black rounded-full scroll-dot'></div>
+  </div>
+  <p className='text-black text-xs mt-2 tracking-[0.3em]'>SCROLL</p>
+</div>
     </div>
+    
   )
 }
 
