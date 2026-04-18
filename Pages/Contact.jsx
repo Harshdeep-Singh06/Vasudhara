@@ -10,8 +10,10 @@ const Contact = () => {
 
       <Navbar />
       <ContactContent/>  
-      <LeftContactContent/>
-      <RightContactContext/>     
+      <div className="max-w-full mx-auto grid md:grid-cols-2 gap-20 justify-between items-start px-6 md:px-10 py-16">
+      <LeftContactContent />
+      <RightContactContext />
+</div>   
 
     </div>
   )
