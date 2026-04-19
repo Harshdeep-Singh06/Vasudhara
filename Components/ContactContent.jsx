@@ -26,6 +26,7 @@ const ContactContent = () => {
   scrollTrigger: {
     trigger: sectionRef.current,
     start: "top top", 
+    scrub:true,
   },
 });
 
