@@ -2,13 +2,11 @@ import React, { useEffect, useRef } from 'react'
 import Navbar from './Navbar'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import MusicButton from "../Components/Music";
 
 gsap.registerPlugin(ScrollTrigger)
 
 function Herosection1() {
   const heroRef = useRef(null)
-  
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -20,6 +18,7 @@ function Herosection1() {
           trigger: heroRef.current,
           start: 'top top',
           end: 'top -100',
+          scrub: true,
         },
       })
     }, heroRef)
@@ -32,7 +31,7 @@ function Herosection1() {
       ref={heroRef}
       className='min-h-screen text-black relative bg-gradient-to-b from-[#d9d5b8] to-white'
     >
-      <Navbar /><MusicButton />
+      <Navbar />
 
       <div className='absolute bottom-40 md:left-8 left-2 font-bold text-2xl md:text-5xl'>
         <p>Vasudhara launches World's</p>
