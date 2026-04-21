@@ -30,7 +30,7 @@ function Herosection1() {
   return (
     <div
       ref={heroRef}
-      className='min-h-screen text-black relative bg-gradient-to-b from-[#d9d5b8] to-white'
+      className='min-h-screen text-black relative bg-gradient-to-b from-[#d9d5b8]  to-[#76b296]/30'
     >
       <Navbar />
       <div className='hidden md:block'>
@@ -43,7 +43,7 @@ function Herosection1() {
         <p>Wildlife and Veterinary Services.</p>
       </div>
 
-      <button className='rounded-full px-10 font-semibold border hover:bg-green-700 border-blue-200 absolute bottom-[100px] md:left-7 left-2 p-2'>
+      <button className='rounded-full px-10 font-semibold border hover:bg-green-700 border-black absolute bottom-[100px] md:left-7 left-2 p-2'>
         Learn More
       </button>
 
