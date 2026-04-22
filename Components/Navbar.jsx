@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { NavLink } from "react-router-dom"
 import { Menu, X } from "lucide-react"
-import MusicButton from "./Music";
+import MusicButton from "../components/Music";
 import { IoHomeOutline } from "react-icons/io5";
 import { RiFileInfoFill } from "react-icons/ri";
 import { IoMdContacts } from "react-icons/io";
