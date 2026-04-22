@@ -4,7 +4,7 @@ import ContactContent from '../Components/ContactHeading'
 import LeftContactContent from '../Components/ContactInfo'
 import RightContactContext from '../Components/ContactForm'
 import ContactFAQ from '../Components/ContactFAQ'
-import ContactFooter from '../Components/ContactFooter'
+import ContactFooter from '@/ContactFooter'
 
 const Contact = () => {
   return (
