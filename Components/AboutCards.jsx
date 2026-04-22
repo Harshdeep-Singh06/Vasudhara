@@ -6,12 +6,12 @@ const AboutCards = () => {
         <h1 className='text-xl font-serif mb-10'>
             Facilities to Nurture and Care
         </h1>
-        <div className='flex gap-6 items-stretch'>
-            <div className='flex flex-col w-1/4 bg-white rounded-xl overflow-hidden'>
-                <img src="/card-1.avif" alt="" className='w-full h-60 object-cover'/>
-                <div className='bg-[#3b1f1f] text-white p-5 flex-grow'>
-                    <p className='text-xs font-bold  mb-2 uppercase'>Qurantine units</p>
-                    <p className='font-serif lg:text-xl'>Provinding dedicated care and monitoring for all arriving animals, ensuring their health and seamless integration into their new environment</p>
+        <div className='flex gap-6  flex-wrap'>
+            <div className='flex flex-col w-full sm:w-[48%] lg:w-[23%] rounded-xl overflow-hidden bg-[#3b1f1f]'>
+                <img src="/card-1.avif" alt="" className='w-full h-100 object-cover'/>
+                <div className='bg-[#3b1f1f] text-white px-5 py-5 pb-20 flex-grow'>
+                    <p className='text-xs font-bold mt-6 uppercase'>Qurantine units</p>
+                    <p className='font-serif lg:text-xl mt-7'>Provinding dedicated care and monitoring for all arriving animals, ensuring their health and seamless integration into their new environment.</p>
                 </div>
             </div>
             <div className='flex flex-col w-1/4 bg-white rounded-xl overflow-hidden'>
