@@ -2,7 +2,7 @@ import './App.css'
 import Home from '../Pages/Home'
 import Contact from '../Pages/Contact'
 import About from '../Pages/About'
-import SmoothScroll from '../Components/SmoothScroll'
+import SmoothScroll from '../components/SmoothScroll'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 

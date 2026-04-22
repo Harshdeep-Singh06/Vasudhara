@@ -1,6 +1,6 @@
 import React from 'react'
-import Herosection1 from '../Components/Herosection1'
-import Herosection2 from '../Components/Herosection2'
+import Herosection1 from '../components/Herosection1'
+import Herosection2 from '../components/Herosection2'
 
 
 function App() {

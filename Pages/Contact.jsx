@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
-import ContactContent from '../Components/ContactHeading'
-import LeftContactContent from '../Components/ContactInfo'
-import RightContactContext from '../Components/ContactForm'
-import ContactFAQ from '../Components/ContactFAQ'
-import ContactFooter from '@/ContactFooter'
+import Navbar from '../components/Navbar'
+import ContactContent from '../components/ContactHeading'
+import LeftContactContent from '../components/ContactInfo'
+import RightContactContext from '../components/ContactForm'
+import ContactFAQ from '../components/ContactFAQ'
+import ContactFooter from '../components/ContactFooter'
 
 const Contact = () => {
   return (
