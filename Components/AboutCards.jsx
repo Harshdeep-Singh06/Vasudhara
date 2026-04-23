@@ -3,12 +3,12 @@ import React from 'react'
 const AboutCards = () => {
   return (
     // Debugging try 1
-    <div className='bg-gray-100 py-16 px-10 mt-10'>
-        <h1 className='text-xl md:text-5xl font-serif mb-20'>
+    <div className='bg-gradient-to-b from-[#41493e] to-white py-16 px-10 '>
+        <h1 className='text-2xl md:text-5xl font-serif mb-20'>
             Facilities to Nurture and Care 
         </h1>
         <div className='flex gap-6 flex-wrap'>
-            <div className='flex flex-col w-full sm:w-[48%] lg:w-[23%] rounded-xl overflow-hidden bg-[#3b1f1f]'>
+            <div className='flex flex-col w-full  sm:w-[48%] lg:w-[23%] rounded-xl overflow-hidden bg-[#3b1f1f]'>
                 <img src="/card-1.avif" alt="" className='w-full h-100 object-cover'/>
                 <div className='bg-[#3b1f1f] text-white px-5 py-5 pb-20 flex-grow'>
                     <p className='text-xs font-bold mt-6 uppercase'>Qurantine units</p>
@@ -25,15 +25,15 @@ const AboutCards = () => {
             <div className='sm:w-[48%] lg:w-[23%]  bg-white rounded-xl overflow-hidden flex flex-col'>
                 <img src="/card-3.avif" alt="" className='w-full h-100 object-cover'/>
                 <div className='bg-[#3b1f1f] text-white p-5 flex-grow'>
-                    <p className='text-xs font-bold  mt-6 uppercase'>sterilisation service department</p>
-                    <p className='font-serif lg:text-xl mt-7'>One of the first veterinary care centres in the country to have a CSSD Mega Unit.</p>
+                    <p className='text-xs font-bold  mb-2 uppercase'>sterilisation service department</p>
+                    <p className='font-serif lg:text-xl'>One of the first veterinary care centres in the country to have a CSSD Mega Unit</p>
                 </div>
             </div>
             <div className='sm:w-[48%] lg:w-[23%]  bg-white rounded-xl overflow-hidden flex-col flex'>
                 <img src="/card-4.avif" alt="" className='w-full h-100 object-cover'/>
                 <div className='bg-[#3b1f1f] text-white p-5 flex-grow'>
-                    <p className='text-xs font-bold  mt-6 uppercase'>Animal dentistry </p>
-                    <p className='font-serif lg:text-xl mt-7'>We prioritise animal comfort through, pain-free and stress-free dental procedures.</p>
+                    <p className='text-xs font-bold  mb-2 uppercase'>Animal dentistry </p>
+                    <p className='font-serif lg:text-xl'>We prioritise animal comfort through, pain-free and stress-free dental procedures</p>
                 </div>
             </div>
         </div>

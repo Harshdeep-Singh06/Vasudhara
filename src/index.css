@@ -16,3 +16,7 @@
 .scroll-dot {
   animation: scrollDot 1.5s infinite;
 }
+
+#right::-webkit-scrollbar{
+  display:none;
+}
