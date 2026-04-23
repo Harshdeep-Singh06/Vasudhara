@@ -12,7 +12,6 @@ function Herosection1() {
   useEffect(() => {
     const ctx = gsap.context(() => {
 
-    
       gsap.to('.scroll-indicator', {
         opacity: 0,
         y: 20,
@@ -25,7 +24,6 @@ function Herosection1() {
         },
       })
 
-     
       gsap.from('.hero-text p', {
         opacity: 0,
         duration: 1,
@@ -41,28 +39,46 @@ function Herosection1() {
   return (
     <div
       ref={heroRef}
-      className='min-h-screen text-black relative bg-gradient-to-b from-[#d9d5b8]  to-[#76b296]/30'
+      className='relative min-h-screen overflow-hidden text-white'
     >
-      <Navbar />
-      <div className='hidden md:block'>
-        <MusicButton/>
-      </div>
 
-      <div className='hero-text absolute bottom-40 md:left-8 left-2 font-bold text-2xl md:text-5xl'>
-        <p>Vasudhara launches World's</p>
-        <p>1st Global University for</p>
-        <p>Wildlife and Veterinary Services.</p>
-      </div>
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className='absolute top-0 left-0 w-full h-full object-cover'
+      >
+        <source src='/herovideo.mp4' type='video/mp4' />
+      </video>
 
-      <button className='rounded-full px-10 font-semibold border hover:bg-green-700 border-black absolute bottom-[100px] md:left-7 left-2 p-2'>
-        Learn More
-      </button>
+    
+      <div className='absolute inset-0 bg-black/30 z-10'></div>
 
-      <div className='scroll-indicator absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center'>
-        <div className='w-6 h-10 border-2 border-black rounded-full flex justify-center pt-2'>
-          <div className='w-1 h-2 bg-black rounded-full scroll-dot'></div>
+    
+      <div className='relative z-20 min-h-screen'>
+        <Navbar />
+
+        <div className='hidden md:block'>
+          <MusicButton />
         </div>
-        <p className='text-black text-xs mt-2 tracking-[0.3em]'>SCROLL</p>
+
+        <div className='hero-text absolute bottom-40 md:left-8 left-2 font-bold text-2xl md:text-5xl'>
+          <p>Vasudhara launches World's</p>
+          <p>1st Global University for</p>
+          <p>Wildlife and Veterinary Services.</p>
+        </div>
+
+        <button className='rounded-full px-10 font-semibold border hover:bg-green-700 border-white absolute bottom-[100px] md:left-7 left-2 p-2'>
+          Learn More
+        </button>
+
+        <div className='scroll-indicator absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center'>
+          <div className='w-6 h-10 border-2 border-white rounded-full flex justify-center pt-2'>
+            <div className='w-1 h-2 bg-white rounded-full scroll-dot'></div>
+          </div>
+          <p className='text-xs mt-2 tracking-[0.3em]'>SCROLL</p>
+        </div>
       </div>
     </div>
   )
