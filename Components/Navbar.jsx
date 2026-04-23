@@ -32,13 +32,73 @@ function Navbar() {
 
       </nav>
 
-      {open && (
-        <div className='md:hidden mx-2 mt-3 rounded-full bg-gradient-to-r from-[#1a1a1a]/80 via-[#2a2a2a]/70 to-[#1a1a1a]/80 backdrop-blur-md border border-white/10 text-white shadow-lg px-6 py-5 flex justify-around gap-4'>
-          <div className='flex items-center gap-1'><IoHomeOutline /><NavLink to="/" onClick={() => setOpen(false)}>HOME</NavLink></div>
-          <div className='flex items-center gap-1'><RiFileInfoFill /><NavLink to="/about" onClick={() => setOpen(false)}>ABOUT</NavLink></div>
-          <div className='flex items-center gap-1'><IoMdContacts /><NavLink to="/contact" onClick={() => setOpen(false)}>CONTACT US</NavLink></div>
+     {open && (
+  <div className="md:hidden absolute top-24 left-1/2 -translate-x-1/2 w-[92%] z-[9999]">
+    <div className="rounded-[28px] border border-white/15 bg-gradient-to-br from-[#1a1a1a]/95 via-[#2a2a2a]/90 to-[#111111]/95 backdrop-blur-2xl shadow-[0_18px_60px_rgba(0,0,0,0.45)] px-4 py-4">
+      
+      <NavLink
+        to="/"
+        onClick={() => setOpen(false)}
+        className="group flex items-center gap-4 rounded-2xl px-4 py-3 hover:bg-white/8 transition-all duration-300"
+      >
+        <div className="w-11 h-11 rounded-full bg-white/8 border border-white/10 flex items-center justify-center shadow-sm group-hover:bg-white/12 transition-all duration-300">
+          <IoHomeOutline size={20} className="text-white/90" />
         </div>
-      )}
+
+        <div className="flex flex-col">
+          <p className="text-[15px] font-semibold tracking-[0.14em] text-white uppercase">
+            Home
+          </p>
+          <p className="text-[11px] text-white/55 tracking-[0.18em] uppercase">
+            Main Page
+          </p>
+        </div>
+      </NavLink>
+
+      <div className="h-px bg-white/8 mx-2 my-1"></div>
+
+      <NavLink
+        to="/about"
+        onClick={() => setOpen(false)}
+        className="group flex items-center gap-4 rounded-2xl px-4 py-3 hover:bg-white/8 transition-all duration-300"
+      >
+        <div className="w-11 h-11 rounded-full bg-white/8 border border-white/10 flex items-center justify-center shadow-sm group-hover:bg-white/12 transition-all duration-300">
+          <RiFileInfoFill size={18} className="text-white/90" />
+        </div>
+
+        <div className="flex flex-col">
+          <p className="text-[15px] font-semibold tracking-[0.14em] text-white uppercase">
+            About
+          </p>
+          <p className="text-[11px] text-white/55 tracking-[0.18em] uppercase">
+            Our Story
+          </p>
+        </div>
+      </NavLink>
+
+      <div className="h-px bg-white/8 mx-2 my-1"></div>
+
+      <NavLink
+        to="/contact"
+        onClick={() => setOpen(false)}
+        className="group flex items-center gap-4 rounded-2xl px-4 py-3 hover:bg-white/8 transition-all duration-300"
+      >
+        <div className="w-11 h-11 rounded-full bg-white/8 border border-white/10 flex items-center justify-center shadow-sm group-hover:bg-white/12 transition-all duration-300">
+          <IoMdContacts size={19} className="text-white/90" />
+        </div>
+
+        <div className="flex flex-col">
+          <p className="text-[15px] font-semibold tracking-[0.14em] text-white uppercase">
+            Contact Us
+          </p>
+          <p className="text-[11px] text-white/55 tracking-[0.18em] uppercase">
+            Get In Touch
+          </p>
+        </div>
+      </NavLink>
+    </div>
+  </div>
+)}
 
     </div>
   )
