@@ -23,7 +23,6 @@ function MusicButton() {
 
   useEffect(() => {
     const audio = audioRef.current;
-
     const handleEnded = () => setIsPlaying(false);
 
     if (audio) {
@@ -39,35 +38,22 @@ function MusicButton() {
 
   return (
     <>
-      <audio
-        ref={audioRef}
-        src="/music.mp3"
-        loop
-        preload="auto"
-      />
+      <audio ref={audioRef} src="/music.mp3" loop preload="auto" />
 
       <button
         onClick={toggleMusic}
         className="
-          fixed z-50
-          md:bottom-6 md:right-6
-          top-8 right-8 md:top-auto
-          md:w-14 md:h-14
-          w-10 h-10
+          fixed z-[10000]
+          top-8 right-10
+          md:top-auto md:right-6 md:bottom-6
+          w-10 h-10 md:w-12 md:h-12
           rounded-full
-          bg-gradient-to-r
-          from-[#1a1a1a]/80
-          via-[#2a2a2a]/70
-          to-[#1a1a1a]/80
-          text-white
+          bg-white/50 text-black
           flex items-center justify-center
-          shadow-lg
-          hover:scale-105
-          transition
-          backdrop-blur-md
+          shadow-lg transition hover:scale-105
         "
       >
-        {isPlaying ? <Volume2 size={20} /> : <VolumeX size={20} />}
+        {isPlaying ? <Volume2 size={18} /> : <VolumeX size={18} />}
       </button>
     </>
   );
