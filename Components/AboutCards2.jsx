@@ -30,7 +30,7 @@ const AboutCards2 = () => {
         <div id='right'
              ref={scrollRef}
              className='w-full flex flex-nowrap gap-6 lg:w-2/3 p-4 lg:p-6 overflow-x-auto scroll-smooth'>
-        <div className='lg:h-full mt-6 lg:mt-10 sm:w-72 w-64 lg:w-80 sm:h-[350px] h-[300px] shrink-0 overflow-hidden relative rounded-3xl'>
+        <div className='lg:h-full mt-6 lg:mt-10 sm:w-72 w-64 lg:w-78 sm:h-[350px] h-[300px] shrink-0 overflow-hidden relative rounded-3xl '>
             <img className='h-full w-full object-cover' src="/ceo1.jpg" alt="" />
 
             <div className='absolute top-0 left-0 p-4 flex flex-col justify-between h-full w-full'>
@@ -42,7 +42,7 @@ const AboutCards2 = () => {
             
         </div>
         
-        <div className='lg:h-full mt-6 lg:mt-10 sm:w-72 w-64 lg:w-80 sm:h-[350px] h-[300px] shrink-0 overflow-hidden relative rounded-3xl'>
+        <div className='lg:h-full mt-6 lg:mt-10 w-64 sm:w-72 lg:w-80 sm:h-[350px] h-[300px] shrink-0 overflow-hidden relative rounded-3xl'>
             <img className='h-full w-full object-cover' src="/mr-2.jpg" alt="" />
 
             <div className='absolute top-0 left-0 p-4 flex flex-col justify-between h-full w-full'>
@@ -51,7 +51,7 @@ const AboutCards2 = () => {
                 </p>
             </div>
         </div>
-        <div className='lg:h-full mt-6 lg:mt-10 sm:w-72 w-64 lg:w-80 sm:h-[350px] h-[300px] shrink-0 overflow-hidden relative rounded-3xl'>
+        <div className='lg:h-full mt-6 lg:mt-10 w-64 sm:w-72 lg:w-80 sm:h-[350px] h-[300px] shrink-0 overflow-hidden relative rounded-3xl'>
             <img className='h-full w-full object-cover' src="/mr-3.jpg" alt="" />
 
             <div className='absolute top-0 left-0 p-4 flex flex-col justify-between h-full w-full'>
@@ -60,7 +60,7 @@ const AboutCards2 = () => {
                 </p>
             </div>
         </div>
-        <div className='lg:h-full mt-6 lg:mt-10 sm:w-72 w-64 lg:w-80 sm:h-[350px] h-[300px] shrink-0 overflow-hidden relative rounded-3xl'>
+        <div className='lg:h-full mt-6 lg:mt-10 w-64 sm:w-72 lg:w-80 sm:h-[350px] h-[300px] shrink-0 overflow-hidden relative rounded-3xl'>
             <img className='h-full w-full  object-cover' src="/mr-4.jpg" alt="" />
 
             <div className='absolute top-0 left-0 p-4 flex flex-col justify-between h-full w-full'>
@@ -69,7 +69,7 @@ const AboutCards2 = () => {
                 </p>
             </div>
         </div>
-        <div className='lg:h-full mt-6 lg:mt-10 sm:w-72 w-64 lg:w-80 sm:h-[350px] h-[300px] shrink-0 overflow-hidden relative rounded-3xl'>
+        <div className='lg:h-full mt-6 lg:mt-10 w-64 sm:w-72 lg:w-80 sm:h-[350px] h-[300px] shrink-0 overflow-hidden relative rounded-3xl'>
             <img className='h-full w-full object-cover' src="/mr-5.jpg" alt="" />
 
             <div className='absolute top-0 left-0 p-4 flex flex-col justify-between h-full w-full'>
@@ -78,7 +78,7 @@ const AboutCards2 = () => {
                 </p>
             </div>
         </div>
-        <div className='lg:h-full mt-6 lg:mt-10 sm:w-72 w-64 lg:w-80 sm:h-[350px] h-[300px] shrink-0 overflow-hidden relative rounded-3xl'>
+        <div className='lg:h-full mt-6 lg:mt-10 w-64 sm:w-72 lg:w-80 sm:h-[350px] h-[300px] shrink-0 overflow-hidden relative rounded-3xl'>
             <img className='h-full w-full object-cover' src="/mr-6.jpg" alt="" />
 
             <div className='absolute top-0 left-0 p-4 flex flex-col justify-between h-full w-full'>
@@ -87,7 +87,7 @@ const AboutCards2 = () => {
                 </p>
             </div>
         </div>
-        <div className='lg:h-full mt-6 lg:mt-10 sm:w-72 w-64 lg:w-80 sm:h-[350px] h-[300px] shrink-0 overflow-hidden relative rounded-3xl'>
+        <div className='lg:h-full mt-6 lg:mt-10 w-64 sm:w-72 lg:w-80 sm:h-[350px] h-[300px] shrink-0 overflow-hidden relative rounded-3xl'>
             <img className='h-full w-full object-cover' src="/mr-7.jpg" alt="" />
 
             <div className='absolute top-0 left-0 p-4 flex flex-col justify-between h-full w-full'>
@@ -96,7 +96,7 @@ const AboutCards2 = () => {
                 </p>
             </div>
         </div>
-        <div className='lg:h-full mt-6 lg:mt-10 sm:w-72 w-64 lg:w-80 sm:h-[350px] h-[300px] shrink-0 overflow-hidden relative rounded-3xl'>
+        <div className='lg:h-full mt-6 lg:mt-10 w-64 sm:w-72 lg:w-80 sm:h-[350px] h-[300px] shrink-0 overflow-hidden relative rounded-3xl'>
             <img className='h-full w-full object-cover' src="/mr-8.jpg" alt="" />
 
             <div className='absolute top-0 left-0 p-4 flex flex-col justify-between h-full w-full'>
