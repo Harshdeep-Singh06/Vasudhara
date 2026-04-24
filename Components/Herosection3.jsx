@@ -94,11 +94,11 @@ function Herosection3() {
             <div className="absolute -top-6 -left-6 w-32 h-32 bg-[#b9a176]/30 rounded-full blur-2xl" />
             <div className="absolute -bottom-8 -right-8 w-40 h-40 bg-[#26351f]/20 rounded-full blur-3xl" />
 
-            <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl shadow-black/20 border border-white/60">
+            <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl shadow-black/20 border md:translate-x-40 md:translate-y-4 border-white/60">
               <img
                 src="/tree2.jpg"
                 alt="Wildlife conservation"
-                className="w-full h-[55vh] md:h-[82vh] object-cover"
+                className="w-full h-[55vh] md:h-[80vh] object-cover -mt-17 "
               />
 
               <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-black/5 to-transparent" />
