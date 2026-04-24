@@ -6,7 +6,7 @@ function Herosection2() {
 
   const scroll = (direction) => {
     if (scrollRef.current) {
-      const amount = 420
+      const amount = 345
 
       scrollRef.current.scrollBy({
         left: direction === 'left' ? -amount : amount,
@@ -19,12 +19,12 @@ function Herosection2() {
     <div className="overflow-x-hidden bg-white px-4 md:px-15 py-10">
       <p className='text-sm tracking-[0.35em] text-[#8a765d] font-semibold text-center md:text-start md:pl-0.5'>UPDATES</p>
 
-      <div className="flex justify-between items-center md:mt-4">
+      <div className="flex flex-col md:flex-row md:justify-between md:items-center md:mt-4 gap-4">
         <p className="text-xl md:text-4xl text-[#26351f]/50 font-semibold pl-5 mt-3 md:mt-0 md:pl-0 md:text-center md:text-left">
           LATEST NEWS AND HIGHLIGHTS
         </p>
 
-        <div className="hidden md:flex gap-3">
+        <div className="flex gap-3 pl-27 md:pl-0 translate-y-7">
           <button
             onClick={() => scroll('left')}
             className="w-12 h-12 rounded-full border border-black/10 flex items-center justify-center hover:bg-black hover:text-white transition-all duration-300"
