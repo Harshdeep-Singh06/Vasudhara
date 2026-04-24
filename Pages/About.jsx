@@ -3,6 +3,7 @@ import Navbar from '../Components/Navbar'
 import AboutTop1 from '@/AboutTop1'
 import AboutCards from '@/AboutCards'
 import AboutCards2 from '@/AboutCards2'
+import AboutForm from '@/AboutForm'
 
 const About = () => {
   return (
@@ -10,6 +11,7 @@ const About = () => {
       <AboutTop1/>
       <AboutCards2/>
       <AboutCards/>
+      <AboutForm/>
     </div>
   )
 }

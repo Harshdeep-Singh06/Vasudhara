@@ -1,34 +1,19 @@
 import React, { useRef } from 'react'
-import { ChevronLeft, ChevronRight } from 'lucide-react'
-import { GrContactInfo } from 'react-icons/gr'
 
 
 
 const AboutCards2 = () => {
-    const scrollRef = useRef(null)
-    
-      const scroll = (direction) => {
-        if (scrollRef.current) {
-          const amount = 342
-    
-          scrollRef.current.scrollBy({
-            left: direction === 'left' ? -amount : amount,
-            behavior: 'smooth',
-          })
-        }
-      }
   return (
     
-    <div className=' pb-16 pt-6 flex flex-col lg:flex-row items-center min-h-screen px-4 sm:px-8 lg:px-16'>
+    <div className=' pb-16 pt-6 flex flex-col lg:flex-row items-center min-h-screen px-4 sm:px-8 lg:px-16 bg-gradient-to-b from-[#2f3a2c] to-[#e8efe9]]'>
         
         <div className='w-full lg:w-1/3 flex justify-center flex-col'>
         <div className='p-6'>
-        <h3 className='mt-10 leading-tight text-3xl sm:text-4xl lg:text-6xl font-bold'>
-            The Faces <br/> <span className='text-green-900'>  Behind </span> <br/>Our Mission </h3>
+        <h3 className='mt-10 leading-tight text-4xl  lg:text-6xl font-bold text-white lg:text-black'>
+            The Faces <br/> <span className='text-green-950'>  Behind </span> <br/>Our Mission </h3>
         </div>
         </div>
         <div id='right'
-             ref={scrollRef}
              className='w-full flex flex-nowrap gap-6 lg:w-2/3 p-4 lg:p-6 overflow-x-auto scroll-smooth'>
         <div className='lg:h-full mt-6 lg:mt-10 sm:w-72 w-64 lg:w-78 sm:h-[350px] h-[300px] shrink-0 overflow-hidden relative rounded-3xl '>
             <img className='h-full w-full object-cover' src="/ceo1.jpg" alt="" />
