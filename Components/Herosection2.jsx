@@ -20,7 +20,7 @@ function Herosection2() {
       <p className='text-sm tracking-[0.35em] text-[#8a765d] font-semibold text-center md:text-start md:pl-0.5'>UPDATES</p>
 
       <div className="flex flex-col md:flex-row md:justify-between md:items-center md:mt-4 gap-4">
-        <p className="text-xl md:text-4xl text-[#26351f]/50 font-semibold pl-5 mt-3 md:mt-0 md:pl-0 md:text-center md:text-left">
+        <p className="text-xl md:text-4xl text-[#26351f] font-semibold pl-5 mt-3 md:mt-0 md:pl-0 md:text-center md:text-left">
           LATEST NEWS AND HIGHLIGHTS
         </p>
 

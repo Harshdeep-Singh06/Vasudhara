@@ -34,7 +34,7 @@ function Herosection4() {
             OUR VISION
           </p>
 
-          <h2 className="mt-3 text-4xl md:text-6xl font-semibold pl-2 text-[#26351f]/50 text-center md:text-start leading-tight">
+          <h2 className="mt-3 text-4xl md:text-6xl font-semibold pl-2 text-[#26351f] text-center md:text-start leading-tight">
             Core Missions
           </h2>
         </div>
