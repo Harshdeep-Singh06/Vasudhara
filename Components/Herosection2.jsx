@@ -27,14 +27,14 @@ function Herosection2() {
         <div className="flex gap-3 pl-27 md:pl-0 translate-y-7 md:translate-y-0">
           <button
             onClick={() => scroll('left')}
-            className="w-12 h-12 rounded-full bg-black text-white border border-black/10 flex items-center justify-center hover:bg-black/80 hover:text-white transition-all duration-300"
+            className="w-12 h-12 rounded-full bg-green-800 text-white border border-black/10 flex items-center justify-center hover:bg-black/80 hover:text-white transition-all duration-300"
           >
             <ChevronLeft size={22} />
           </button>
 
           <button
             onClick={() => scroll('right')}
-            className="w-12 h-12 rounded-full border bg-black text-white border-black/10 flex items-center justify-center hover:bg-black/80 hover:text-white transition-all duration-300"
+            className="w-12 h-12 rounded-full border bg-green-800 text-white border-black/10 flex items-center justify-center hover:bg-black/80 hover:text-white transition-all duration-300"
           >
             <ChevronRight size={22} />
           </button>
