@@ -5,41 +5,41 @@ function Herosection3() {
 
   const initiatives = [
     {
-      title: "RESCUE AND RECOVERY",
+      title: "Rescue and recovery",
       description:
         "At Vantara, rescue is the foundation of animal care. We locate and secure wildlife impacted by habitat loss, conflict, or confinement, conducting every operation with precision and compassion.",
     },
     {
-      title: "TREATMENT AND CARE",
+      title: "Treatment and Care",
       description:
         "Our veterinary teams provide specialised treatment, nutrition, monitoring, and long-term medical support to help every rescued animal recover safely.",
     },
     {
-      title: "REHABILITATION AND SUPPORT",
+      title: "Rehabilitation and Support",
       description:
         "We create structured recovery environments where animals receive behavioural support, habitat care, and continuous supervision.",
     },
     {
-      title: "CONSERVATION, BREEDING AND REBUILDING",
+      title: "Conservation, Breeding AND Rebuilding",
       description:
         "Through conservation breeding, research, and habitat-focused support, we help rebuild vulnerable wildlife populations for the future.",
     },
   ];
 
   return (
-    <section className="relative bg-gradient-to-b from-white via-[#f7f2ea] to-[#e8dccb] -translate-y-10 overflow-hidden">
+    <section className="relative bg-white -translate-y-10 overflow-hidden">
       <div className="max-w-7xl  px-4 md:px-13">
-        <div className="mb-12">
+        <div className="mb-12 translate-y-5">
           <p className="text-sm tracking-[0.35em] text-[#8a765d] font-semibold text-center md:text-start md:pl-4">
             OUR WORK
           </p>
 
-          <h2 className="mt-3 text-4xl md:text-6xl font-semibold pl-2 text-[#26351f]/50 text-center md:text-start leading-tight">
+          <h2 className="mt-3 text-4xl md:text-6xl font-semibold pl-2 text-[#26351f] text-center md:text-start leading-tight">
             Core Initiatives
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-10 items-start">
+        <div className="grid md:grid-cols-2 gap-10 -translate-y-4 items-start">
           <div className="flex flex-col gap-4">
             {initiatives.map((item, index) => (
               <div
@@ -54,7 +54,7 @@ function Herosection3() {
                 <div className="p-6 md:p-7">
                   <div className="flex items-center justify-between gap-5">
                     <p
-                      className={`text-base md:text-lg font-semibold tracking-wide transition-colors ${
+                      className={`text-base md:text-2xl font-light tracking-wide transition-colors ${
                         active === index
                           ? "text-[#26351f]"
                           : "text-[#4c4438]"
@@ -94,7 +94,7 @@ function Herosection3() {
             <div className="absolute -top-6 -left-6 w-32 h-32 bg-[#b9a176]/30 rounded-full blur-2xl" />
             <div className="absolute -bottom-8 -right-8 w-40 h-40 bg-[#26351f]/20 rounded-full blur-3xl" />
 
-            <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl shadow-black/20 border md:translate-x-40 md:translate-y-4 border-white/60">
+            <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl shadow-black/20 border -translate-y-4 md:translate-x-40 md:translate-y-4 border-white/60">
               <img
                 src="/tree3.jpg"
                 alt="Wildlife conservation"
@@ -105,9 +105,9 @@ function Herosection3() {
 
               <div className="absolute bottom-6 left-6 right-6 text-white">
                 <p className="text-sm tracking-[0.25em] uppercase text-white/80">
-                  Vantara
+                  Vasudhara
                 </p>
-                <h3 className="text-2xl md:text-4xl font-semibold mt-2">
+                <h3 className="text-2xl md:text-4xl text-white/80 font-semibold mt-2">
                   Planting lives with care
                 </h3>
               </div>
