@@ -5,24 +5,24 @@ function Herosection4() {
 
   const initiatives = [
     {
-      title: "RESCUE AND RECOVERY",
+      title: "A Healing Home",
       description:
-        "At Vantara, rescue is the foundation of animal care. We locate and secure wildlife impacted by habitat loss, conflict, or confinement, conducting every operation with precision and compassion.",
+        "Rescued animals experience healing through expert care, fostering a rewarding and positive environment for their improved welfare.",
     },
     {
-      title: "TREATMENT AND CARE",
+      title: "Nutrition enhanced with Science",
       description:
-        "Our veterinary teams provide specialised treatment, nutrition, monitoring, and long-term medical support to help every rescued animal recover safely.",
+        "From puzzle feeders to olfactory challenges, our science-backed enrichment methods enhance every wild animal's mental and physical well-being.",
     },
     {
-      title: "REHABILITATION AND SUPPORT",
+      title: "Holistic Animal Welfare",
       description:
-        "We create structured recovery environments where animals receive behavioural support, habitat care, and continuous supervision.",
+        "By blending permanent environmental upgrades and engaging activities, we create a balanced environment that prioritises holistic growth and happiness.",
     },
     {
-      title: "CONSERVATION, BREEDING AND REBUILDING",
+      title: "Sustaining Wildlife Futures",
       description:
-        "Through conservation breeding, research, and habitat-focused support, we help rebuild vulnerable wildlife populations for the future.",
+        "Through conservation breeding, habitat restoration, and scientific research, we safeguard endangered species and strengthen biodiversity for generations to come.",
     },
   ];
 
@@ -54,7 +54,7 @@ function Herosection4() {
                 <div className="p-6 md:p-7">
                   <div className="flex items-center justify-between gap-5">
                     <p
-                      className={`text-base md:text-lg font-semibold tracking-wide transition-colors ${
+                      className={`text-base md:text-xl font-medium tracking-wide transition-colors ${
                         active === index
                           ? "text-[#26351f]"
                           : "text-[#4c4438]"
