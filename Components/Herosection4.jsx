@@ -39,7 +39,7 @@ function Herosection4() {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-10 translate-y-10 items-start ">
+        <div className="grid md:grid-cols-2 gap-10  items-start ">
           <div className="flex flex-col gap-4 md:order-2 md:translate-x-40">
             {initiatives.map((item, index) => (
               <div
