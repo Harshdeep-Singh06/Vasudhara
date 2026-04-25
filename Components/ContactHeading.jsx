@@ -46,7 +46,7 @@ const ContactContent = () => {
   return (
     <div
       ref={sectionRef}
-      className='flex flex-col items-center pt-10 md:pt-28 px-4 text-center'
+      className='flex flex-col items-center pt-70 md:pt-28 px-4 text-center'
     >
       <p className='contact-tag tracking-[0.3em] text-sm font-bold text-gray-600 mb-6'>
         CONTACT US
