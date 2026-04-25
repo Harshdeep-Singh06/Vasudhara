@@ -50,7 +50,7 @@ const AboutTop1 = () => {
       <div className='relative z-20 min-h-screen'>
         
 
-        <div className='hero-text absolute bottom-55 md:left-8 left-3 font-bold text-2xl md:text-5xl'>
+        <div className='hero-text absolute bottom-60 md:left-8 left-3 font-bold text-2xl md:text-5xl'>
           <p>Securing the Future of </p>
           <p>Wildlife Through Science</p>
           <p>Led Care</p>
@@ -59,7 +59,7 @@ const AboutTop1 = () => {
         <button className='rounded-full px-10 font-semibold border hover:bg-green-700 border-white absolute bottom-[170px] md:left-7 left-2 p-2'>
           Learn More
         </button>
-        <div className='scroll-indicator absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center'>
+        <div className='scroll-indicator absolute bottom-20 md:top-10 left-1/2 -translate-x-1/2 flex flex-col items-center'>
           <div className='w-6 h-10 border-2 border-white rounded-full flex justify-center pt-2'>
             <div className='w-1 h-2 bg-white rounded-full scroll-dot'></div>
           </div>

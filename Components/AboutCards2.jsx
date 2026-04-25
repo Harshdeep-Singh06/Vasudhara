@@ -22,7 +22,7 @@ const AboutCards2 = () => {
         
         <div className='w-full lg:w-1/3 flex justify-center flex-col'>
         <div>
-        <div className='mt-10 leading-tight text-4xl  lg:text-6xl   font-semibold  text-[#26351f]/50 ml-5 lg:ml-0 font- '>
+        <div className='mt-10 leading-tight text-4xl  lg:text-6xl   font-semibold  text-[#26351f]/50 ml-14 lg:ml-0 font- '>
             <p>The Faces <span className='text-green-900  '>Behind</span>  </p>
             <p className='ml-10 lg:ml-0'>Our Misson</p> </div>
              <div className="flex gap-3 lg:mt-4 mt-0 mb-6 translate-y-7 md:translate-y-0 lg:mt-10">

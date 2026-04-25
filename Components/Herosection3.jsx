@@ -29,7 +29,7 @@ function Herosection3() {
   return (
     <section className="relative bg-white -translate-y-10 overflow-hidden">
       <div className="max-w-7xl  px-4 md:px-13">
-        <div className="mb-12 translate-y-5">
+        <div className="mb-12 translate-y-7">
           <p className="text-sm tracking-[0.35em] text-[#8a765d] font-semibold text-center md:text-start md:pl-4">
             OUR WORK
           </p>

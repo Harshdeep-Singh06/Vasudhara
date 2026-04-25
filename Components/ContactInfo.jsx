@@ -43,7 +43,7 @@ const ContactLeft = () => {
   return (
     <div
       ref={containerRef}
-      className="flex flex-col justify-center min-h-screen rounded-xl px-8 md:px-16 "
+      className="flex flex-col justify-center mt-30  rounded-xl px-8 md:px-16 "
     >
       <div className="contact-heading text-5xl md:text-7xl font-serif text-gray-900 leading-tight mb-16"><h1>
         <p className="text-center md:text-start  ">Get in Touch</p> 

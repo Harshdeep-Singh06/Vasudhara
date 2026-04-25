@@ -43,6 +43,7 @@ function Herosection1() {
         muted
         playsInline
         className='absolute top-0 left-0 w-full h-full object-cover'
+        poster="/hero-poster.png"
       >
         <source src='/herovideo.mp4' type='video/mp4' />
       </video>
@@ -62,7 +63,7 @@ function Herosection1() {
           Learn More
         </button>
 
-        <div className='scroll-indicator absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center'>
+        <div className='scroll-indicator absolute bottom-20 md:bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center'>
           <div className='w-6 h-10 border-2 border-white rounded-full flex justify-center pt-2'>
             <div className='w-1 h-2 bg-white rounded-full scroll-dot'></div>
           </div>
