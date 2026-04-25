@@ -1,19 +1,50 @@
 import React, { useRef } from 'react'
+import { ChevronLeft, ChevronRight } from 'lucide-react'
 
 
 
 const AboutCards2 = () => {
+    const scrollRef = useRef(null)
+    
+      const scroll = (direction) => {
+        if (scrollRef.current) {
+          const amount = scrollRef.current.clientWidth * 0.8
+    
+          scrollRef.current.scrollBy({
+            left: direction === 'left' ? -amount : amount,
+            behavior: 'smooth',
+          })
+        }
+      }
   return (
     
-    <div className=' pb-16 pt-6 flex flex-col lg:flex-row items-center min-h-screen px-4 sm:px-8 lg:px-16 bg-[#E9DECE] '>
+    <div className='lg:pb-5 pb-0 pt-6 flex flex-col lg:flex-row items-center px-4 sm:px-8 lg:px-16 bg-gradient-to-b from-[#d5b687] via-[#dfcdaf] to-[#efe3cc]'>
         
         <div className='w-full lg:w-1/3 flex justify-center flex-col'>
-        <div className='p-6'>
-        <h3 className='mt-10 leading-tight text-4xl  lg:text-6xl font-bold text-white lg:text-black'>
-            The Faces <br/> <span className='text-green-950'>  Behind </span> <br/>Our Mission </h3>
+        <div>
+        <div className='mt-10 leading-tight text-4xl  lg:text-6xl   font-semibold  text-[#26351f]/50 ml-5 lg:ml-0 font- '>
+            <p>The Faces <span className='text-green-900  '>Behind</span>  </p>
+            <p className='ml-10 lg:ml-0'>Our Misson</p> </div>
+             <div className="flex gap-3 lg:mt-4 mt-0 mb-6 translate-y-7 md:translate-y-0 lg:mt-10">
+          <button
+            onClick={() => scroll('left')}
+            className="w-12 h-12 lg:w-14 lg:h-14  rounded-full border-2 border-black/30 flex items-center justify-center hover:bg-black hover:text-white transition-all duration-300 ml-29 lg:ml-20"
+          >
+            <ChevronLeft size={22} />
+          </button>
+
+          <button
+            onClick={() => scroll('right')}
+            className="w-12 h-12 lg:w-14 lg:h-14 rounded-full border-2 border-black/30 flex items-center justify-center hover:bg-black hover:text-white transition-all duration-300"
+          >
+            <ChevronRight size={22} />
+          </button>
         </div>
         </div>
+        </div>
+        
         <div id='right'
+            ref={scrollRef}
              className='w-full flex flex-nowrap gap-6 lg:w-2/3 p-4 lg:p-6 overflow-x-auto scroll-smooth'>
         
         <div>
