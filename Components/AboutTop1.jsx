@@ -49,7 +49,7 @@ const AboutTop1 = () => {
       <div className='relative z-20 min-h-screen'>
         
 
-        <div className='hero-text absolute bottom-55 md:left-8 left-3 font-bold text-2xl md:text-5xl'>
+        <div className='hero-text absolute bottom-60 md:left-8 left-3 font-bold text-2xl md:text-5xl'>
           <p>Securing the Future of </p>
           <p>Wildlife Through Science</p>
           <p>Led Care</p>
