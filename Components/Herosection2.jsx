@@ -43,7 +43,7 @@ function Herosection2() {
 
       <div
         ref={scrollRef}
-        className="overflow-hidden mt-10"
+        className="overflow-x-auto overflow-y-hidden mt-10 scroll-smooth" id='right'
       >
         <div className="flex gap-6 w-max">
 
